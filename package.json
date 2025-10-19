@@ -1,20 +1,18 @@
 {
-  "name": "zeni-vault-final",
+  "name": "zenivault-final",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3000",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start -p 3000"
+    "start": "next start"
   },
   "dependencies": {
-    "next": "13.4.8",
+    "next": "14.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "nodemailer": "6.9.4",
-    "cookie": "0.5.0",
-    "firebase": "10.16.0",
-    "multer": "1.4.5-lts.1",
-    "node-fetch": "2.6.7"
+    "firebase": "10.7.1",
+    "nodemailer": "^6.9.5",
+    "googleapis": "^126.0.1"
   }
 }
